@@ -1,0 +1,14 @@
+{
+  "name": "Start on Heroku: Go test example",
+  "description": "Go Getting Started Example App",
+  "keywords": [
+    "getting-started",
+    "go",
+    "sample",
+    "example"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/mujibur-rahman/apiserver",
+  "website": "http://github.com/mujibur-rahman/apiserver",
+  "repository": "http://github.com/mujibur-rahman/apiserver"
+}

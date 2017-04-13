@@ -1,0 +1,7 @@
+{
+    "comment": "For other heroku options see",
+    "rootPath": "github.com/mujibur-rahman/apiserver",
+    "heroku": {
+        "sync": false
+    }
+}
