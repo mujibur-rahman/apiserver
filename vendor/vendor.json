@@ -2,7 +2,15 @@
     "comment": "For other heroku options see",
     "rootPath": "github.com/mujibur-rahman/apiserver",
     "heroku": {
-	"install": ["."],
+	"install": ["./..."],
         "sync": false
-    }
+    },
+    "package": [
+		{
+			"path": "github.com/go-sql-driver/mysql"
+		},
+		{
+			"path": "github.com/gorilla/securecookie"
+		}
+	]
 }
